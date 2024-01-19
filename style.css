@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+body,html {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+}
+
+.btn {
+    border: 5px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+.b1{
+    color: #ffffff;
+    background: #000;
+}
+.b2{
+    color: #000;
+    background: #ffffff;
+}
+
+button {
+    height: 50px;
+    width: 80px; /* Adjusted width for better visibility */
+    cursor: pointer;
+}
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: #07010f;
+    color: #ffffff;
+}
+
+button:hover{
+
+}
+
